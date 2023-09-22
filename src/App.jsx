@@ -1,0 +1,16 @@
+import { useState } from "react";
+import "./App.css";
+
+import Main from "./components/main";
+import Header from "./components/header";
+
+function App() {
+  return (
+    <>
+      <Main/>
+      <Header/>
+    </>
+  );
+}
+
+export default App;
